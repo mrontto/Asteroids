@@ -1,6 +1,6 @@
-import pygame
+import pygame # type: ignore
 from circleshape import CircleShape
-from constants import SHOT_RADIUS
+from constants import *
 
 class Shot(CircleShape):
     def __init__(self, x, y):
